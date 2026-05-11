@@ -2394,52 +2394,141 @@ if st.session_state.garmin_authenticated:
                 
                 st.divider()
                 
-                # Guia de treino semanal sugerido
-                st.subheader("📅 Sugestão de Semana de Treino")
-                st.markdown("Baseado no modelo **80/20** (80% volume em Z1-Z2, 20% em Z3-Z5):")
-                
-                week_col1, week_col2 = st.columns(2)
-                z1 = zones[0]
-                z2 = zones[1]
-                z3 = zones[2]
-                z4 = zones[3]
-                z5 = zones[4]
-                
-                with week_col1:
-                    st.info(f"""
-                    **Segunda — Recuperação ({z1['emoji']} Z1)**
-                    - 20-30 min em {z1['pace_alvo_str']}
-                    - FC: {z1['fc_str']}
-                    - _Fácil, conversação livre_
-                    
-                    **Quarta — Base Aeróbica ({z2['emoji']} Z2)**
-                    - 40-60 min em {z2['pace_alvo_str']}
-                    - FC: {z2['fc_str']}
-                    - _Esforço confortável_
-                    
-                    **Sexta — Intervalado ({z4['emoji']} Z4)**
-                    - 5×1000m em {z4['pace_alvo_str']}
-                    - Descanso: 2-3 min entre repetições
-                    - _Intenso mas controlado_
-                    """)
-                
-                with week_col2:
-                    st.success(f"""
-                    **Terça — Descanso ou Musculação** 💪
-                    - Recuperação ativa
-                    
-                    **Quinta — Tempo ({z3['emoji']} Z3)**
-                    - 20-30 min em {z3['pace_alvo_str']}
-                    - FC: {z3['fc_str']}
-                    - _Desconfortável mas sustentável_
-                    
-                    **Sábado — Longa ({z2['emoji']} Z2)**
-                    - 60-90 min em {z2['pace_alvo_str']}
-                    - FC: {z2['fc_str']}
-                    - _Conversa possível, levemente cansativo_
-                    
-                    **Domingo — Descanso total** 🛌
-                    """)
+                # Previsão de provas — 4 métodos com range min/max
+                st.subheader("🏁 Previsão de Provas")
+                st.markdown("Baseado no **teste de 1km** calculado pelos **4 métodos** abaixo. O tempo exibido é o intervalo entre o mais otimista e o mais conservador:")
+
+                # --- Funções de previsão ---
+                def _fmt_time(s):
+                    s = int(round(s))
+                    h = s // 3600
+                    m = (s % 3600) // 60
+                    sc = s % 60
+                    if h > 0:
+                        return f"{h}h {m:02d}min {sc:02d}s"
+                    return f"{m}min {sc:02d}s"
+
+                def _fmt_pace(total_sec, dist_km):
+                    ps = total_sec / dist_km
+                    return f"{int(ps//60)}:{int(ps%60):02d} /km"
+
+                def predict_riegel(t1_sec, d1_m, d2_m):
+                    """Riegel clássico: expoente 1.06"""
+                    return t1_sec * ((d2_m / d1_m) ** 1.06)
+
+                def predict_cameron(t1_sec, d1_m, d2_m):
+                    """
+                    Cameron (1997): velocidade proporcional ao fator a(d).
+                    v = c × a(d)  =>  c = d1 / (t1 × a(d1))
+                    t2 = t1 × (d2/d1) × (a(d1)/a(d2))
+                    a(d) = 13.49681 - 0.000030363*d + 835.7114/(d^0.7905)
+                    """
+                    def _a(d):
+                        return 13.49681 - 0.000030363 * d + 835.7114 / (d ** 0.7905)
+                    a1 = _a(d1_m)
+                    a2 = _a(d2_m)
+                    return t1_sec * (d2_m / d1_m) * (a1 / a2)
+
+                def predict_vdot(t1_sec, d1_m, d2_m):
+                    """
+                    VDOT / Jack Daniels: calcula VO2 a partir do esforço de corrida
+                    e resolve a distância alvo numericamente.
+                    % VO2max = 0.8 + 0.1894393*e^(-0.012778*t) + 0.2989558*e^(-0.1932605*t)  (t em min)
+                    VO2 de corrida = -4.60 + 0.182258*(v) + 0.000104*(v^2)  (v em m/min)
+                    """
+                    def vo2_pct(t_min):
+                        return 0.8 + 0.1894393 * math.exp(-0.012778 * t_min) \
+                                   + 0.2989558 * math.exp(-0.1932605 * t_min)
+
+                    def vo2_from_speed(v_m_min):
+                        return -4.60 + 0.182258 * v_m_min + 0.000104 * (v_m_min ** 2)
+
+                    t1_min = t1_sec / 60
+                    v1 = d1_m / t1_min                           # m/min
+                    vdot = vo2_from_speed(v1) / vo2_pct(t1_min)  # VO2max estimado
+
+                    # Resolver t2 para d2 numericamente (bissecção)
+                    lo, hi = t1_sec * (d2_m / d1_m) * 0.7, t1_sec * (d2_m / d1_m) * 2.0
+                    for _ in range(60):
+                        mid = (lo + hi) / 2
+                        mid_min = mid / 60
+                        v2 = d2_m / mid_min
+                        vdot_est = vo2_from_speed(v2) / vo2_pct(mid_min)
+                        if vdot_est > vdot:
+                            lo = mid
+                        else:
+                            hi = mid
+                    return (lo + hi) / 2
+
+                def predict_riegel_adj(t1_sec, d1_m, d2_m):
+                    """Riegel ajustado para iniciantes: expoente 1.08 (mais conservador)"""
+                    return t1_sec * ((d2_m / d1_m) ** 1.08)
+
+                methods = {
+                    "Riegel":        predict_riegel,
+                    "Cameron":       predict_cameron,
+                    "VDOT Daniels":  predict_vdot,
+                    "Riegel Ajust.": predict_riegel_adj,
+                }
+
+                distances = [
+                    ("5 km",       5000,  "🟢"),
+                    ("10 km",     10000,  "🟡"),
+                    ("Meia (21k)",21097,  "🟠"),
+                    ("Maratona",  42195,  "🔴"),
+                ]
+
+                race_cols = st.columns(4)
+                for col, (label, dist_m, emoji) in zip(race_cols, distances):
+                    preds = {name: fn(pace_1km_sec, 1000, dist_m)
+                             for name, fn in methods.items()}
+                    t_min = min(preds.values())
+                    t_max = max(preds.values())
+                    dist_km = dist_m / 1000
+
+                    rows_html = "".join(
+                        f'<div style="display:flex;justify-content:space-between;'
+                        f'font-size:0.78rem;color:#aaa;padding:2px 0;">'
+                        f'<span>{name}</span><span style="color:#ccc;">{_fmt_time(t)}</span></div>'
+                        for name, t in preds.items()
+                    )
+
+                    with col:
+                        st.markdown(f"""
+                        <div style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);
+                                    border-radius:12px;padding:18px;text-align:center;
+                                    border:1px solid #444;margin-bottom:8px;">
+                            <div style="font-size:2rem;">{emoji}</div>
+                            <div style="font-weight:700;font-size:1.05rem;color:#eee;margin:6px 0;">{label}</div>
+                            <div style="font-size:1.1rem;font-weight:800;color:#f0c040;">
+                                {_fmt_time(t_min)}
+                            </div>
+                            <div style="font-size:0.85rem;color:#888;">até</div>
+                            <div style="font-size:1.1rem;font-weight:800;color:#e07040;">
+                                {_fmt_time(t_max)}
+                            </div>
+                            <div style="font-size:0.78rem;color:#888;margin:4px 0 8px 0;">
+                                Pace: {_fmt_pace(t_min,dist_km)} – {_fmt_pace(t_max,dist_km)}
+                            </div>
+                            <hr style="border-color:#333;margin:8px 0;">
+                            {rows_html}
+                        </div>
+                        """, unsafe_allow_html=True)
+
+                # Tabela comparativa dos métodos
+                st.markdown("##### Comparativo por método")
+                method_names = list(methods.keys())
+                header_cols = st.columns([2] + [1]*4)
+                header_cols[0].markdown("**Método**")
+                for hc, (lbl, _, _em) in zip(header_cols[1:], distances):
+                    hc.markdown(f"**{lbl}**")
+                for name, fn in methods.items():
+                    row_cols = st.columns([2] + [1]*4)
+                    row_cols[0].markdown(name)
+                    for rc, (_, dist_m, _em) in zip(row_cols[1:], distances):
+                        rc.markdown(_fmt_time(fn(pace_1km_sec, 1000, dist_m)))
+
+                st.caption("⚠️ Previsões teóricas com base no ritmo máximo de 1km. Provas longas exigem treino específico de base aeróbica.")
 
             # ============================================
             # ABA PERFORMANCE — NOVA
