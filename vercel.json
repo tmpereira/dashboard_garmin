@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "garmin_vue/dist",
+  "installCommand": "npm ci",
+  "framework": "vite",
+  "rootDirectory": "garmin_vue"
+}
