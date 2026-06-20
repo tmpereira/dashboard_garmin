@@ -101,7 +101,7 @@
     "timeMarathon": 21652
   },
   "_meta": {
-    "extracted_at": "2026-06-20T14:09:56.307375",
+    "extracted_at": "2026-06-20T22:01:33.499645",
     "period_start": "2026-01-01",
     "period_end": "2026-06-20",
     "days_total": 171
@@ -1947,12 +1947,6 @@
       "max": 125,
       "resting": 54,
       "min": 49
-    },
-    {
-      "date": "2026-05-04",
-      "max": 136,
-      "resting": 50,
-      "min": 45
     },
     {
       "date": "2026-05-05",
@@ -4487,12 +4481,12 @@
     {
       "date": "2026-05-04",
       "avg_stress": 16,
-      "body_battery_max": 96
+      "body_battery_max": null
     },
     {
       "date": "2026-05-05",
       "avg_stress": 26,
-      "body_battery_max": 100
+      "body_battery_max": null
     },
     {
       "date": "2026-05-06",
