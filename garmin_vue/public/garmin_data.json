@@ -17,7 +17,7 @@
     "wellnessActiveKilocalories": null,
     "netRemainingKilocalories": 0.0,
     "userDailySummaryId": null,
-    "calendarDate": "2026-06-24",
+    "calendarDate": "2026-06-25",
     "rule": null,
     "uuid": null,
     "dailyStepGoal": null,
@@ -101,10 +101,10 @@
     "timeMarathon": 21005
   },
   "_meta": {
-    "extracted_at": "2026-06-24T22:08:36.933216",
+    "extracted_at": "2026-06-25T14:38:37.477773",
     "period_start": "2026-01-01",
-    "period_end": "2026-06-24",
-    "days_total": 175
+    "period_end": "2026-06-25",
+    "days_total": 176
   },
   "sleep": [
     {
@@ -3777,100 +3777,100 @@
   ],
   "steps_weekly": [
     {
-      "date": "2026-01-08",
-      "total_steps": 49576
+      "date": "2026-01-09",
+      "total_steps": 58944
     },
     {
-      "date": "2026-01-15",
-      "total_steps": 66307
+      "date": "2026-01-16",
+      "total_steps": 66013
     },
     {
-      "date": "2026-01-22",
-      "total_steps": 47039
+      "date": "2026-01-23",
+      "total_steps": 46243
     },
     {
-      "date": "2026-01-29",
-      "total_steps": 58723
+      "date": "2026-01-30",
+      "total_steps": 59163
     },
     {
-      "date": "2026-02-05",
-      "total_steps": 57488
+      "date": "2026-02-06",
+      "total_steps": 58833
     },
     {
-      "date": "2026-02-12",
-      "total_steps": 70615
+      "date": "2026-02-13",
+      "total_steps": 72696
     },
     {
-      "date": "2026-02-19",
-      "total_steps": 67454
+      "date": "2026-02-20",
+      "total_steps": 61933
     },
     {
-      "date": "2026-02-26",
-      "total_steps": 66444
+      "date": "2026-02-27",
+      "total_steps": 66022
     },
     {
-      "date": "2026-03-05",
-      "total_steps": 70013
+      "date": "2026-03-06",
+      "total_steps": 73555
     },
     {
-      "date": "2026-03-12",
-      "total_steps": 66603
+      "date": "2026-03-13",
+      "total_steps": 69753
     },
     {
-      "date": "2026-03-19",
-      "total_steps": 76665
+      "date": "2026-03-20",
+      "total_steps": 76579
     },
     {
-      "date": "2026-03-26",
-      "total_steps": 77563
+      "date": "2026-03-27",
+      "total_steps": 72776
     },
     {
-      "date": "2026-04-02",
-      "total_steps": 76060
+      "date": "2026-04-03",
+      "total_steps": 76343
     },
     {
-      "date": "2026-04-09",
-      "total_steps": 66752
+      "date": "2026-04-10",
+      "total_steps": 71581
     },
     {
-      "date": "2026-04-16",
-      "total_steps": 72651
+      "date": "2026-04-17",
+      "total_steps": 72303
     },
     {
-      "date": "2026-04-23",
-      "total_steps": 73513
+      "date": "2026-04-24",
+      "total_steps": 82894
     },
     {
-      "date": "2026-04-30",
-      "total_steps": 91746
+      "date": "2026-05-01",
+      "total_steps": 81429
     },
     {
-      "date": "2026-05-07",
-      "total_steps": 73266
+      "date": "2026-05-08",
+      "total_steps": 69870
     },
     {
-      "date": "2026-05-14",
-      "total_steps": 74528
+      "date": "2026-05-15",
+      "total_steps": 76382
     },
     {
-      "date": "2026-05-21",
-      "total_steps": 75773
+      "date": "2026-05-22",
+      "total_steps": 77112
     },
     {
-      "date": "2026-05-28",
-      "total_steps": 71172
+      "date": "2026-05-29",
+      "total_steps": 69173
     },
     {
-      "date": "2026-06-04",
-      "total_steps": 85564
+      "date": "2026-06-05",
+      "total_steps": 84818
     },
     {
-      "date": "2026-06-11",
-      "total_steps": 71521
+      "date": "2026-06-12",
+      "total_steps": 79375
     },
     {
-      "date": "2026-06-18",
-      "total_steps": 65749
+      "date": "2026-06-19",
+      "total_steps": 48995
     }
   ],
   "intensity_weekly": [
@@ -6808,18 +6808,18 @@
     }
   ],
   "pmc": {
-    "ctl": 17.2,
-    "atl": 13.3,
-    "tsb": 3.9,
+    "ctl": 16.4,
+    "atl": 10.0,
+    "tsb": 6.4,
     "trimp_7d": 118.6,
     "activities_7d": 5,
-    "readiness": 86,
+    "readiness": 88,
     "training_status": "Produtivo",
-    "acute_load_label": "Baixa",
+    "acute_load_label": "Muito Baixa",
     "hrv_score": 75,
     "sleep_score": 100,
     "body_battery_score": 96,
-    "tsb_score": 70,
+    "tsb_score": 90,
     "history": [
       {
         "date": "2026-01-10",
@@ -7816,6 +7816,12 @@
         "ctl": 17.2,
         "atl": 13.3,
         "tsb": 3.9
+      },
+      {
+        "date": "2026-06-25",
+        "ctl": 16.4,
+        "atl": 10.0,
+        "tsb": 6.4
       }
     ]
   },
