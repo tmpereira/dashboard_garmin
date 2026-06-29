@@ -31,8 +31,8 @@
     "wellnessDescription": null,
     "highlyActiveSeconds": 542,
     "activeSeconds": 424,
-    "sedentarySeconds": 14280,
-    "sleepingSeconds": 26754,
+    "sedentarySeconds": 11580,
+    "sleepingSeconds": 29454,
     "includesWellnessData": true,
     "includesActivityData": false,
     "includesCalorieConsumedData": false,
@@ -137,7 +137,7 @@
     "timeMarathon": 21067
   },
   "_meta": {
-    "extracted_at": "2026-06-29T15:52:24.969826",
+    "extracted_at": "2026-06-29T22:04:48.072365",
     "period_start": "2026-01-01",
     "period_end": "2026-06-29",
     "days_total": 180
