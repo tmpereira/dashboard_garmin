@@ -34,7 +34,7 @@
     "sedentarySeconds": 3850,
     "sleepingSeconds": 20270,
     "includesWellnessData": true,
-    "includesActivityData": false,
+    "includesActivityData": true,
     "includesCalorieConsumedData": false,
     "privacyProtected": false,
     "moderateIntensityMinutes": 0,
@@ -88,7 +88,7 @@
     "latestSpo2ReadingTimeGmt": "2026-06-30T08:38:00.0",
     "latestSpo2ReadingTimeLocal": "2026-06-30T05:38:00.0",
     "averageMonitoringEnvironmentAltitude": 599.0,
-    "restingCaloriesFromActivity": null,
+    "restingCaloriesFromActivity": 76.0,
     "bodyBatteryDynamicFeedbackEvent": {
       "eventTimestampGmt": "2026-06-30T09:41:55",
       "bodyBatteryLevel": "HIGH",
@@ -131,7 +131,7 @@
     "timeMarathon": 21068
   },
   "_meta": {
-    "extracted_at": "2026-06-30T14:25:01.473384",
+    "extracted_at": "2026-06-30T22:09:54.738995",
     "period_start": "2026-01-01",
     "period_end": "2026-06-30",
     "days_total": 181
@@ -7088,14 +7088,30 @@
       "cadence": 0,
       "training_effect": 3.0,
       "location": "São José dos Campos"
+    },
+    {
+      "id": 23435479713,
+      "date": "2026-06-30",
+      "name": "Força",
+      "type": "strength_training",
+      "distance_m": 0,
+      "duration_s": 2888,
+      "avg_hr": 99.0,
+      "max_hr": 149.0,
+      "calories": 235.0,
+      "elevation_gain": 0,
+      "avg_speed_ms": 0,
+      "cadence": 0,
+      "training_effect": 0.800000011920929,
+      "location": ""
     }
   ],
   "pmc": {
-    "ctl": 16.3,
-    "atl": 11.9,
-    "tsb": 4.4,
-    "trimp_7d": 97.8,
-    "activities_7d": 4,
+    "ctl": 17.1,
+    "atl": 16.0,
+    "tsb": 1.1,
+    "trimp_7d": 114.1,
+    "activities_7d": 5,
     "readiness": 86,
     "training_status": "Produtivo",
     "acute_load_label": "Baixa",
@@ -8132,9 +8148,9 @@
       },
       {
         "date": "2026-06-30",
-        "ctl": 16.3,
-        "atl": 11.9,
-        "tsb": 4.4
+        "ctl": 17.1,
+        "atl": 16.0,
+        "tsb": 1.1
       }
     ]
   },
