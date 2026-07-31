@@ -2,167 +2,139 @@
   "profile": "Thiago pereira",
   "user_summary": {
     "userProfileId": 140450730,
-    "totalKilocalories": 1971.0,
-    "activeKilocalories": 328.0,
-    "bmrKilocalories": 1643.0,
-    "wellnessKilocalories": 1971.0,
+    "totalKilocalories": 572.0,
+    "activeKilocalories": 1.0,
+    "bmrKilocalories": 571.0,
+    "wellnessKilocalories": 572.0,
     "burnedKilocalories": null,
     "consumedKilocalories": null,
     "remainingKilocalories": null,
-    "totalSteps": 11480,
+    "totalSteps": 200,
     "netCalorieGoal": null,
-    "totalDistanceMeters": 9301,
-    "wellnessDistanceMeters": 9301,
-    "wellnessActiveKilocalories": 328.0,
-    "netRemainingKilocalories": 328.0,
+    "totalDistanceMeters": 163,
+    "wellnessDistanceMeters": 163,
+    "wellnessActiveKilocalories": 1.0,
+    "netRemainingKilocalories": 1.0,
     "userDailySummaryId": 140450730,
-    "calendarDate": "2026-07-30",
+    "calendarDate": "2026-07-31",
     "rule": {
       "typeId": 3,
       "typeKey": "subscribers"
     },
-    "uuid": "4a20bb4bbb3e4f91a65b7a820476c8af",
+    "uuid": "e925cc2405e3468eb947388009dd1b78",
     "dailyStepGoal": 8000,
-    "wellnessStartTimeGmt": "2026-07-30T03:00:00.0",
-    "wellnessStartTimeLocal": "2026-07-30T00:00:00.0",
-    "wellnessEndTimeGmt": "2026-07-30T20:30:00.0",
-    "wellnessEndTimeLocal": "2026-07-30T17:30:00.0",
-    "durationInMilliseconds": 63000000,
+    "wellnessStartTimeGmt": "2026-07-31T03:00:00.0",
+    "wellnessStartTimeLocal": "2026-07-31T00:00:00.0",
+    "wellnessEndTimeGmt": "2026-07-31T09:05:00.0",
+    "wellnessEndTimeLocal": "2026-07-31T06:05:00.0",
+    "durationInMilliseconds": 21900000,
     "wellnessDescription": null,
-    "highlyActiveSeconds": 1837,
-    "activeSeconds": 3680,
-    "sedentarySeconds": 39157,
-    "sleepingSeconds": 18326,
+    "highlyActiveSeconds": 7,
+    "activeSeconds": 54,
+    "sedentarySeconds": 798,
+    "sleepingSeconds": 21041,
     "includesWellnessData": true,
-    "includesActivityData": true,
+    "includesActivityData": false,
     "includesCalorieConsumedData": false,
     "privacyProtected": false,
-    "moderateIntensityMinutes": 20,
-    "vigorousIntensityMinutes": 9,
-    "floorsAscendedInMeters": 22.182,
-    "floorsDescendedInMeters": 22.273,
-    "floorsAscended": 7.27756,
-    "floorsDescended": 7.30741,
+    "moderateIntensityMinutes": 0,
+    "vigorousIntensityMinutes": 0,
+    "floorsAscendedInMeters": 0.0,
+    "floorsDescendedInMeters": 0.0,
+    "floorsAscended": 0.0,
+    "floorsDescended": 0.0,
     "intensityMinutesGoal": 150,
     "userFloorsAscendedGoal": 10,
     "minHeartRate": 46,
-    "maxHeartRate": 147,
+    "maxHeartRate": 84,
     "restingHeartRate": 49,
     "lastSevenDaysAvgRestingHeartRate": 49,
     "source": "GARMIN",
-    "averageStressLevel": 21,
-    "maxStressLevel": 89,
-    "stressDuration": 11040,
-    "restStressDuration": 32700,
-    "activityStressDuration": 11580,
-    "uncategorizedStressDuration": 4980,
-    "totalStressDuration": 60300,
-    "lowStressDuration": 7020,
-    "mediumStressDuration": 3660,
-    "highStressDuration": 360,
-    "stressPercentage": 18.31,
-    "restStressPercentage": 54.23,
-    "activityStressPercentage": 19.2,
-    "uncategorizedStressPercentage": 8.26,
-    "lowStressPercentage": 11.64,
-    "mediumStressPercentage": 6.07,
-    "highStressPercentage": 0.6,
-    "stressQualifier": "BALANCED",
-    "measurableAwakeDuration": 37080,
-    "measurableAsleepDuration": 18240,
-    "lastSyncTimestampGMT": "2026-07-30T20:32:22.695",
+    "averageStressLevel": 14,
+    "maxStressLevel": 67,
+    "stressDuration": 1080,
+    "restStressDuration": 18120,
+    "activityStressDuration": 420,
+    "uncategorizedStressDuration": 300,
+    "totalStressDuration": 19920,
+    "lowStressDuration": 900,
+    "mediumStressDuration": 180,
+    "highStressDuration": null,
+    "stressPercentage": 5.42,
+    "restStressPercentage": 90.96,
+    "activityStressPercentage": 2.11,
+    "uncategorizedStressPercentage": 1.51,
+    "lowStressPercentage": 4.52,
+    "mediumStressPercentage": 0.9,
+    "highStressPercentage": 0.0,
+    "stressQualifier": "UNKNOWN",
+    "measurableAwakeDuration": 720,
+    "measurableAsleepDuration": 18900,
+    "lastSyncTimestampGMT": "2026-07-31T09:18:14.685",
     "minAvgHeartRate": 47,
-    "maxAvgHeartRate": 140,
-    "bodyBatteryChargedValue": 36,
-    "bodyBatteryDrainedValue": 54,
-    "bodyBatteryHighestValue": 99,
-    "bodyBatteryLowestValue": 45,
-    "bodyBatteryMostRecentValue": 45,
-    "bodyBatteryDuringSleep": 63,
-    "bodyBatteryAtWakeTime": 99,
+    "maxAvgHeartRate": 84,
+    "bodyBatteryChargedValue": 40,
+    "bodyBatteryDrainedValue": 0,
+    "bodyBatteryHighestValue": 86,
+    "bodyBatteryLowestValue": 46,
+    "bodyBatteryMostRecentValue": 86,
+    "bodyBatteryDuringSleep": 54,
+    "bodyBatteryAtWakeTime": 86,
     "bodyBatteryVersion": 3.0,
     "abnormalHeartRateAlertsCount": null,
     "averageSpo2": 97.0,
-    "lowestSpo2": 91,
-    "latestSpo2": 97,
-    "latestSpo2ReadingTimeGmt": "2026-07-30T08:09:00.0",
-    "latestSpo2ReadingTimeLocal": "2026-07-30T05:09:00.0",
-    "averageMonitoringEnvironmentAltitude": 622.0,
-    "restingCaloriesFromActivity": 47.0,
+    "lowestSpo2": 87,
+    "latestSpo2": 99,
+    "latestSpo2ReadingTimeGmt": "2026-07-31T08:45:00.0",
+    "latestSpo2ReadingTimeLocal": "2026-07-31T05:45:00.0",
+    "averageMonitoringEnvironmentAltitude": 643.0,
+    "restingCaloriesFromActivity": null,
     "bodyBatteryDynamicFeedbackEvent": {
-      "eventTimestampGmt": "2026-07-30T15:29:45",
+      "eventTimestampGmt": "2026-07-31T08:51:02",
       "bodyBatteryLevel": "HIGH",
-      "feedbackShortType": "DAY_RECOVERING_AND_EXERCISE",
-      "feedbackLongType": "DAY_RECOVERING_AND_EXERCISE"
+      "feedbackShortType": null,
+      "feedbackLongType": "EARLY_MORNING_HIGH_MODERATE_GOOD_SLEEP_DURATION_HIGH_BB_YESTERDAY_MORNING"
     },
     "bodyBatteryActivityEventList": [
       {
         "eventType": "SLEEP",
-        "eventStartTimeGmt": "2026-07-30T00:17:26",
+        "eventStartTimeGmt": "2026-07-30T23:49:41",
         "timezoneOffset": -10800000,
-        "durationInMilliseconds": 28080000,
-        "bodyBatteryImpact": 63,
+        "durationInMilliseconds": 32460000,
+        "bodyBatteryImpact": 54,
         "feedbackType": "NONE",
         "shortFeedback": "NONE",
         "deviceId": 3612901910,
         "activityName": null,
         "activityType": null,
         "activityId": null,
-        "eventUpdateTimeGmt": "2026-07-30T08:09:28"
-      },
-      {
-        "eventType": "ACTIVITY",
-        "eventStartTimeGmt": "2026-07-30T09:13:06",
-        "timezoneOffset": -10800000,
-        "durationInMilliseconds": 1800000,
-        "bodyBatteryImpact": -8,
-        "feedbackType": "EXERCISE_TRAINING_EFFECT_2",
-        "shortFeedback": "EASY_AEROBIC",
-        "deviceId": 3612901910,
-        "activityName": "São José dos Campos - 30/07 Qui - Corrida",
-        "activityType": "running",
-        "activityId": 23786618017,
-        "eventUpdateTimeGmt": "2026-07-30T09:43:41"
-      },
-      {
-        "eventType": "RECOVERY",
-        "eventStartTimeGmt": "2026-07-30T18:02:41",
-        "timezoneOffset": -10800000,
-        "durationInMilliseconds": 3480000,
-        "bodyBatteryImpact": 0,
-        "feedbackType": "RECOVERY_BODY_BATTERY_NOT_INCREASE",
-        "shortFeedback": "RESTFUL_PERIOD",
-        "deviceId": 3612901910,
-        "activityName": null,
-        "activityType": null,
-        "activityId": null,
-        "eventUpdateTimeGmt": "2026-07-30T19:04:45"
+        "eventUpdateTimeGmt": "2026-07-31T08:50:44"
       }
     ],
-    "avgWakingRespirationValue": 14.0,
-    "highestRespirationValue": 23.0,
-    "lowestRespirationValue": 7.0,
-    "latestRespirationValue": 11.0,
-    "latestRespirationTimeGMT": "2026-07-30T20:30:00.0",
+    "avgWakingRespirationValue": 18.0,
+    "highestRespirationValue": 24.0,
+    "lowestRespirationValue": 6.0,
+    "latestRespirationValue": 13.0,
+    "latestRespirationTimeGMT": "2026-07-31T09:05:00.0",
     "respirationAlgorithmVersion": 200
   },
-  "vo2max": 40.1,
+  "vo2max": null,
   "fitness_age": {
     "fitness_age": 38.23675366316194,
     "chronological_age": 40,
     "achievable_fitness_age": 34.50438558682689
   },
   "race_predictions": {
-    "time5K": 1969,
-    "time10K": 4160,
-    "timeHalfMarathon": 9603,
-    "timeMarathon": 21683
+    "time5K": 1970,
+    "time10K": 4166,
+    "timeHalfMarathon": 9619,
+    "timeMarathon": 21719
   },
   "_meta": {
-    "extracted_at": "2026-07-30T21:59:57.929304",
+    "extracted_at": "2026-07-31T14:13:13.369596",
     "period_start": "2026-01-01",
-    "period_end": "2026-07-30",
-    "days_total": 211
+    "period_end": "2026-07-31",
+    "days_total": 212
   },
   "sleep": [
     {
@@ -1764,12 +1736,20 @@
       "light_h": 4.6,
       "rem_h": 1.78,
       "awake_h": 0.38
+    },
+    {
+      "date": "2026-07-31",
+      "total_h": 7.65,
+      "deep_h": 0.95,
+      "light_h": 5.72,
+      "rem_h": 0.98,
+      "awake_h": 1.37
     }
   ],
   "sleep_avg": {
     "total_h": 6.99,
     "deep_h": 1.3,
-    "light_h": 4.74,
+    "light_h": 4.75,
     "rem_h": 0.98,
     "awake_h": 0.75
   },
@@ -2683,6 +2663,12 @@
     {
       "date": "2026-07-30",
       "max": 140,
+      "resting": 49,
+      "min": 47
+    },
+    {
+      "date": "2026-07-31",
+      "max": 84,
       "resting": 49,
       "min": 47
     }
@@ -3687,6 +3673,11 @@
       "date": "2026-07-30",
       "last_night_avg": 53,
       "weekly_avg": 52
+    },
+    {
+      "date": "2026-07-31",
+      "last_night_avg": 48,
+      "weekly_avg": 52
     }
   ],
   "steps_daily": [
@@ -4500,125 +4491,133 @@
     },
     {
       "date": "2026-07-30",
-      "steps": 11480
+      "steps": 12397
+    },
+    {
+      "date": "2026-07-31",
+      "steps": 200
     }
   ],
   "steps_weekly": [
     {
-      "date": "2026-01-09",
-      "total_steps": 58944
+      "date": "2026-01-03",
+      "total_steps": 1079
     },
     {
-      "date": "2026-01-16",
-      "total_steps": 66013
+      "date": "2026-01-10",
+      "total_steps": 68140
     },
     {
-      "date": "2026-01-23",
-      "total_steps": 46243
+      "date": "2026-01-17",
+      "total_steps": 64184
     },
     {
-      "date": "2026-01-30",
-      "total_steps": 59163
+      "date": "2026-01-24",
+      "total_steps": 45834
     },
     {
-      "date": "2026-02-06",
-      "total_steps": 58833
+      "date": "2026-01-31",
+      "total_steps": 59301
     },
     {
-      "date": "2026-02-13",
-      "total_steps": 72696
+      "date": "2026-02-07",
+      "total_steps": 64887
     },
     {
-      "date": "2026-02-20",
-      "total_steps": 61933
+      "date": "2026-02-14",
+      "total_steps": 69387
     },
     {
-      "date": "2026-02-27",
-      "total_steps": 66022
+      "date": "2026-02-21",
+      "total_steps": 59773
     },
     {
-      "date": "2026-03-06",
-      "total_steps": 73555
+      "date": "2026-02-28",
+      "total_steps": 70557
     },
     {
-      "date": "2026-03-13",
-      "total_steps": 69753
+      "date": "2026-03-07",
+      "total_steps": 73929
     },
     {
-      "date": "2026-03-20",
-      "total_steps": 76579
+      "date": "2026-03-14",
+      "total_steps": 72697
     },
     {
-      "date": "2026-03-27",
-      "total_steps": 72776
+      "date": "2026-03-21",
+      "total_steps": 65670
     },
     {
-      "date": "2026-04-03",
-      "total_steps": 76343
+      "date": "2026-03-28",
+      "total_steps": 73428
     },
     {
-      "date": "2026-04-10",
-      "total_steps": 71581
+      "date": "2026-04-04",
+      "total_steps": 77452
     },
     {
-      "date": "2026-04-17",
-      "total_steps": 72303
+      "date": "2026-04-11",
+      "total_steps": 73296
     },
     {
-      "date": "2026-04-24",
-      "total_steps": 82894
+      "date": "2026-04-18",
+      "total_steps": 69947
     },
     {
-      "date": "2026-05-01",
-      "total_steps": 81429
+      "date": "2026-04-25",
+      "total_steps": 82276
     },
     {
-      "date": "2026-05-08",
-      "total_steps": 69870
+      "date": "2026-05-02",
+      "total_steps": 82503
     },
     {
-      "date": "2026-05-15",
-      "total_steps": 76382
+      "date": "2026-05-09",
+      "total_steps": 73808
     },
     {
-      "date": "2026-05-22",
-      "total_steps": 77112
+      "date": "2026-05-16",
+      "total_steps": 74424
     },
     {
-      "date": "2026-05-29",
-      "total_steps": 69173
+      "date": "2026-05-23",
+      "total_steps": 75221
     },
     {
-      "date": "2026-06-05",
-      "total_steps": 84818
+      "date": "2026-05-30",
+      "total_steps": 78250
     },
     {
-      "date": "2026-06-12",
-      "total_steps": 79375
+      "date": "2026-06-06",
+      "total_steps": 77334
     },
     {
-      "date": "2026-06-19",
-      "total_steps": 68359
+      "date": "2026-06-13",
+      "total_steps": 79889
     },
     {
-      "date": "2026-06-26",
-      "total_steps": 71395
+      "date": "2026-06-20",
+      "total_steps": 65295
     },
     {
-      "date": "2026-07-03",
-      "total_steps": 79770
+      "date": "2026-06-27",
+      "total_steps": 74691
     },
     {
-      "date": "2026-07-10",
-      "total_steps": 90711
+      "date": "2026-07-04",
+      "total_steps": 85985
     },
     {
-      "date": "2026-07-17",
-      "total_steps": 104435
+      "date": "2026-07-11",
+      "total_steps": 91220
     },
     {
-      "date": "2026-07-24",
-      "total_steps": 85911
+      "date": "2026-07-18",
+      "total_steps": 98628
+    },
+    {
+      "date": "2026-07-25",
+      "total_steps": 76403
     }
   ],
   "intensity_weekly": [
@@ -5791,8 +5790,13 @@
     },
     {
       "date": "2026-07-30",
-      "avg_stress": 21,
+      "avg_stress": 23,
       "body_battery_max": 99
+    },
+    {
+      "date": "2026-07-31",
+      "avg_stress": 14,
+      "body_battery_max": 86
     }
   ],
   "activities": [
@@ -8134,17 +8138,17 @@
     }
   ],
   "pmc": {
-    "ctl": 18.9,
-    "atl": 18.6,
-    "tsb": 0.3,
-    "trimp_7d": 154.5,
-    "activities_7d": 6,
-    "readiness": 86,
+    "ctl": 18.0,
+    "atl": 14.0,
+    "tsb": 4.0,
+    "trimp_7d": 137.4,
+    "activities_7d": 5,
+    "readiness": 80,
     "training_status": "Produtivo",
     "acute_load_label": "Baixa",
-    "hrv_score": 73,
+    "hrv_score": 68,
     "sleep_score": 100,
-    "body_battery_score": 99,
+    "body_battery_score": 86,
     "tsb_score": 70,
     "history": [
       {
@@ -9358,6 +9362,12 @@
         "ctl": 18.9,
         "atl": 18.6,
         "tsb": 0.3
+      },
+      {
+        "date": "2026-07-31",
+        "ctl": 18.0,
+        "atl": 14.0,
+        "tsb": 4.0
       }
     ]
   },
