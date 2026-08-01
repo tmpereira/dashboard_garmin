@@ -2,19 +2,19 @@
   "profile": "Thiago pereira",
   "user_summary": {
     "userProfileId": 140450730,
-    "totalKilocalories": 1340.0,
-    "activeKilocalories": 503.0,
-    "bmrKilocalories": 837.0,
-    "wellnessKilocalories": 1340.0,
+    "totalKilocalories": 1517.0,
+    "activeKilocalories": 509.0,
+    "bmrKilocalories": 1008.0,
+    "wellnessKilocalories": 1517.0,
     "burnedKilocalories": null,
     "consumedKilocalories": null,
     "remainingKilocalories": null,
-    "totalSteps": 8371,
+    "totalSteps": 9037,
     "netCalorieGoal": null,
-    "totalDistanceMeters": 7843,
-    "wellnessDistanceMeters": 7843,
-    "wellnessActiveKilocalories": 503.0,
-    "netRemainingKilocalories": 503.0,
+    "totalDistanceMeters": 14291,
+    "wellnessDistanceMeters": 8385,
+    "wellnessActiveKilocalories": 509.0,
+    "netRemainingKilocalories": 509.0,
     "userDailySummaryId": 140450730,
     "calendarDate": "2026-08-01",
     "rule": {
@@ -25,14 +25,14 @@
     "dailyStepGoal": 8000,
     "wellnessStartTimeGmt": "2026-08-01T03:00:00.0",
     "wellnessStartTimeLocal": "2026-08-01T00:00:00.0",
-    "wellnessEndTimeGmt": "2026-08-01T11:55:00.0",
-    "wellnessEndTimeLocal": "2026-08-01T08:55:00.0",
-    "durationInMilliseconds": 32100000,
+    "wellnessEndTimeGmt": "2026-08-01T13:44:00.0",
+    "wellnessEndTimeLocal": "2026-08-01T10:44:00.0",
+    "durationInMilliseconds": 38640000,
     "wellnessDescription": null,
-    "highlyActiveSeconds": 2311,
-    "activeSeconds": 1922,
-    "sedentarySeconds": 7183,
-    "sleepingSeconds": 20684,
+    "highlyActiveSeconds": 2374,
+    "activeSeconds": 2102,
+    "sedentarySeconds": 9220,
+    "sleepingSeconds": 24944,
     "includesWellnessData": true,
     "includesActivityData": true,
     "includesCalorieConsumedData": false,
@@ -50,34 +50,34 @@
     "restingHeartRate": 51,
     "lastSevenDaysAvgRestingHeartRate": 50,
     "source": "GARMIN",
-    "averageStressLevel": 18,
-    "maxStressLevel": 72,
-    "stressDuration": 3360,
-    "restStressDuration": 18720,
-    "activityStressDuration": 5820,
-    "uncategorizedStressDuration": 2340,
-    "totalStressDuration": 30240,
-    "lowStressDuration": 2580,
-    "mediumStressDuration": 780,
-    "highStressDuration": null,
-    "stressPercentage": 11.11,
-    "restStressPercentage": 61.9,
-    "activityStressPercentage": 19.25,
-    "uncategorizedStressPercentage": 7.74,
-    "lowStressPercentage": 8.53,
-    "mediumStressPercentage": 2.58,
-    "highStressPercentage": 0.0,
+    "averageStressLevel": 24,
+    "maxStressLevel": 89,
+    "stressDuration": 6600,
+    "restStressDuration": 18780,
+    "activityStressDuration": 8580,
+    "uncategorizedStressDuration": 2820,
+    "totalStressDuration": 36780,
+    "lowStressDuration": 3420,
+    "mediumStressDuration": 2460,
+    "highStressDuration": 720,
+    "stressPercentage": 17.94,
+    "restStressPercentage": 51.06,
+    "activityStressPercentage": 23.33,
+    "uncategorizedStressPercentage": 7.67,
+    "lowStressPercentage": 9.3,
+    "mediumStressPercentage": 6.69,
+    "highStressPercentage": 1.96,
     "stressQualifier": "UNKNOWN",
-    "measurableAwakeDuration": 8760,
+    "measurableAwakeDuration": 14820,
     "measurableAsleepDuration": 19140,
-    "lastSyncTimestampGMT": "2026-08-01T11:55:53.947",
+    "lastSyncTimestampGMT": "2026-08-01T13:44:31.951",
     "minAvgHeartRate": 48,
     "maxAvgHeartRate": 165,
     "bodyBatteryChargedValue": 41,
-    "bodyBatteryDrainedValue": 25,
+    "bodyBatteryDrainedValue": 35,
     "bodyBatteryHighestValue": 80,
     "bodyBatteryLowestValue": 39,
-    "bodyBatteryMostRecentValue": 55,
+    "bodyBatteryMostRecentValue": 45,
     "bodyBatteryDuringSleep": 48,
     "bodyBatteryAtWakeTime": 77,
     "bodyBatteryVersion": 3.0,
@@ -87,13 +87,13 @@
     "latestSpo2": 97,
     "latestSpo2ReadingTimeGmt": "2026-08-01T08:45:00.0",
     "latestSpo2ReadingTimeLocal": "2026-08-01T05:45:00.0",
-    "averageMonitoringEnvironmentAltitude": 646.0,
-    "restingCaloriesFromActivity": 63.0,
+    "averageMonitoringEnvironmentAltitude": 641.0,
+    "restingCaloriesFromActivity": 124.0,
     "bodyBatteryDynamicFeedbackEvent": {
-      "eventTimestampGmt": "2026-08-01T11:05:54",
+      "eventTimestampGmt": "2026-08-01T12:44:53",
       "bodyBatteryLevel": "MODERATE",
-      "feedbackShortType": "MORNING_NOT_STRESS_DATA_AND_INTENSIVE_EXERCISE",
-      "feedbackLongType": "MORNING_NOT_STRESS_DATA_AND_INTENSIVE_EXERCISE"
+      "feedbackShortType": "DAY_NOT_STRESS_DATA_AND_INTENSIVE_EXERCISE",
+      "feedbackLongType": "DAY_NOT_STRESS_DATA_AND_INTENSIVE_EXERCISE"
     },
     "bodyBatteryActivityEventList": [
       {
@@ -128,8 +128,8 @@
     "avgWakingRespirationValue": 15.0,
     "highestRespirationValue": 24.0,
     "lowestRespirationValue": 8.0,
-    "latestRespirationValue": 12.0,
-    "latestRespirationTimeGMT": "2026-08-01T11:36:00.0",
+    "latestRespirationValue": 15.0,
+    "latestRespirationTimeGMT": "2026-08-01T13:40:00.0",
     "respirationAlgorithmVersion": 200
   },
   "vo2max": 40.7,
@@ -145,7 +145,7 @@
     "timeMarathon": 21303
   },
   "_meta": {
-    "extracted_at": "2026-08-01T13:26:26.826702",
+    "extracted_at": "2026-08-01T21:45:09.396281",
     "period_start": "2026-01-01",
     "period_end": "2026-08-01",
     "days_total": 213
@@ -4346,7 +4346,7 @@
     },
     {
       "date": "2026-08-01",
-      "steps": 8371
+      "steps": 9037
     }
   ],
   "steps_weekly": [
@@ -4468,7 +4468,7 @@
     },
     {
       "date": "2026-07-26",
-      "total_steps": 80878
+      "total_steps": 81544
     }
   ],
   "intensity_weekly": [
@@ -5651,7 +5651,7 @@
     },
     {
       "date": "2026-08-01",
-      "avg_stress": 18,
+      "avg_stress": 24,
       "body_battery_max": 80
     }
   ],
@@ -7993,6 +7993,22 @@
       "location": "São José dos Campos"
     },
     {
+      "id": 23817020612,
+      "date": "2026-08-01",
+      "name": "São José dos Campos Ciclismo",
+      "type": "cycling",
+      "distance_m": 5906.4,
+      "duration_s": 2318,
+      "avg_hr": 91.0,
+      "max_hr": 124.0,
+      "calories": 148.0,
+      "elevation_gain": 34,
+      "avg_speed_ms": 2.548,
+      "cadence": 0,
+      "training_effect": 0.30000001192092896,
+      "location": "São José dos Campos"
+    },
+    {
       "id": 23811448721,
       "date": "2026-08-01",
       "name": "São José dos Campos - 01/08 Sab - Corrida",
@@ -8010,11 +8026,11 @@
     }
   ],
   "pmc": {
-    "ctl": 18.6,
-    "atl": 18.1,
-    "tsb": 0.5,
-    "trimp_7d": 146.6,
-    "activities_7d": 5,
+    "ctl": 19.3,
+    "atl": 22.0,
+    "tsb": -2.7,
+    "trimp_7d": 162.3,
+    "activities_7d": 6,
     "readiness": 78,
     "training_status": "Produtivo",
     "acute_load_label": "Baixa",
@@ -9243,9 +9259,9 @@
       },
       {
         "date": "2026-08-01",
-        "ctl": 18.6,
-        "atl": 18.1,
-        "tsb": 0.5
+        "ctl": 19.3,
+        "atl": 22.0,
+        "tsb": -2.7
       }
     ]
   },
