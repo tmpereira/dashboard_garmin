@@ -17,7 +17,7 @@
     "wellnessActiveKilocalories": null,
     "netRemainingKilocalories": 0.0,
     "userDailySummaryId": null,
-    "calendarDate": "2026-08-06",
+    "calendarDate": "2026-08-07",
     "rule": null,
     "uuid": null,
     "dailyStepGoal": null,
@@ -95,16 +95,16 @@
     "achievable_fitness_age": 34.50438558682689
   },
   "race_predictions": {
-    "time5K": 1949,
-    "time10K": 4128,
-    "timeHalfMarathon": 9491,
-    "timeMarathon": 21352
+    "time5K": 1961,
+    "time10K": 4144,
+    "timeHalfMarathon": 9540,
+    "timeMarathon": 21479
   },
   "_meta": {
-    "extracted_at": "2026-08-06T14:14:42.135780",
+    "extracted_at": "2026-08-07T01:00:57.394358",
     "period_start": "2026-01-01",
-    "period_end": "2026-08-06",
-    "days_total": 218
+    "period_end": "2026-08-07",
+    "days_total": 219
   },
   "sleep": [
     {
@@ -1746,12 +1746,28 @@
       "light_h": 4.97,
       "rem_h": 1.72,
       "awake_h": 0.55
+    },
+    {
+      "date": "2026-08-05",
+      "total_h": 5.6,
+      "deep_h": 0.73,
+      "light_h": 3.73,
+      "rem_h": 1.15,
+      "awake_h": 1.12
+    },
+    {
+      "date": "2026-08-06",
+      "total_h": 5.28,
+      "deep_h": 0.23,
+      "light_h": 3.9,
+      "rem_h": 1.15,
+      "awake_h": 1.05
     }
   ],
   "sleep_avg": {
-    "total_h": 7.0,
+    "total_h": 6.98,
     "deep_h": 1.29,
-    "light_h": 4.76,
+    "light_h": 4.75,
     "rem_h": 0.98,
     "awake_h": 0.75
   },
@@ -2508,9 +2524,21 @@
     },
     {
       "date": "2026-08-04",
-      "max": 105,
+      "max": 106,
       "resting": 47,
       "min": 43
+    },
+    {
+      "date": "2026-08-05",
+      "max": 136,
+      "resting": 48,
+      "min": 46
+    },
+    {
+      "date": "2026-08-06",
+      "max": 145,
+      "resting": 48,
+      "min": 45
     }
   ],
   "hrv": [
@@ -3538,6 +3566,16 @@
       "date": "2026-08-04",
       "last_night_avg": 56,
       "weekly_avg": 50
+    },
+    {
+      "date": "2026-08-05",
+      "last_night_avg": 52,
+      "weekly_avg": 50
+    },
+    {
+      "date": "2026-08-06",
+      "last_night_avg": 47,
+      "weekly_avg": 49
     }
   ],
   "steps_daily": [
@@ -4371,129 +4409,141 @@
     },
     {
       "date": "2026-08-04",
-      "steps": 3355
+      "steps": 9404
+    },
+    {
+      "date": "2026-08-05",
+      "steps": 8957
+    },
+    {
+      "date": "2026-08-06",
+      "steps": 14315
     }
   ],
   "steps_weekly": [
     {
-      "date": "2026-01-09",
-      "total_steps": 58944
+      "date": "2026-01-03",
+      "total_steps": 1079
     },
     {
-      "date": "2026-01-16",
-      "total_steps": 66013
+      "date": "2026-01-10",
+      "total_steps": 68140
     },
     {
-      "date": "2026-01-23",
-      "total_steps": 46243
+      "date": "2026-01-17",
+      "total_steps": 64184
     },
     {
-      "date": "2026-01-30",
-      "total_steps": 59163
+      "date": "2026-01-24",
+      "total_steps": 45834
     },
     {
-      "date": "2026-02-06",
-      "total_steps": 58833
+      "date": "2026-01-31",
+      "total_steps": 59301
     },
     {
-      "date": "2026-02-13",
-      "total_steps": 72696
+      "date": "2026-02-07",
+      "total_steps": 64887
     },
     {
-      "date": "2026-02-20",
-      "total_steps": 61933
+      "date": "2026-02-14",
+      "total_steps": 69387
     },
     {
-      "date": "2026-02-27",
-      "total_steps": 66022
+      "date": "2026-02-21",
+      "total_steps": 59773
     },
     {
-      "date": "2026-03-06",
-      "total_steps": 73555
+      "date": "2026-02-28",
+      "total_steps": 70557
     },
     {
-      "date": "2026-03-13",
-      "total_steps": 69753
+      "date": "2026-03-07",
+      "total_steps": 73929
     },
     {
-      "date": "2026-03-20",
-      "total_steps": 76579
+      "date": "2026-03-14",
+      "total_steps": 72697
     },
     {
-      "date": "2026-03-27",
-      "total_steps": 72776
+      "date": "2026-03-21",
+      "total_steps": 65670
     },
     {
-      "date": "2026-04-03",
-      "total_steps": 76343
+      "date": "2026-03-28",
+      "total_steps": 73428
     },
     {
-      "date": "2026-04-10",
-      "total_steps": 71581
+      "date": "2026-04-04",
+      "total_steps": 77452
     },
     {
-      "date": "2026-04-17",
-      "total_steps": 72303
+      "date": "2026-04-11",
+      "total_steps": 73296
     },
     {
-      "date": "2026-04-24",
-      "total_steps": 82894
+      "date": "2026-04-18",
+      "total_steps": 69947
     },
     {
-      "date": "2026-05-01",
-      "total_steps": 81429
+      "date": "2026-04-25",
+      "total_steps": 82276
     },
     {
-      "date": "2026-05-08",
-      "total_steps": 69870
+      "date": "2026-05-02",
+      "total_steps": 82503
     },
     {
-      "date": "2026-05-15",
-      "total_steps": 76382
+      "date": "2026-05-09",
+      "total_steps": 73808
     },
     {
-      "date": "2026-05-22",
-      "total_steps": 77112
+      "date": "2026-05-16",
+      "total_steps": 74424
     },
     {
-      "date": "2026-05-29",
-      "total_steps": 69173
+      "date": "2026-05-23",
+      "total_steps": 75221
     },
     {
-      "date": "2026-06-05",
-      "total_steps": 84818
+      "date": "2026-05-30",
+      "total_steps": 78250
     },
     {
-      "date": "2026-06-12",
-      "total_steps": 79375
+      "date": "2026-06-06",
+      "total_steps": 77334
     },
     {
-      "date": "2026-06-19",
-      "total_steps": 68359
+      "date": "2026-06-13",
+      "total_steps": 79889
     },
     {
-      "date": "2026-06-26",
-      "total_steps": 71395
+      "date": "2026-06-20",
+      "total_steps": 65295
     },
     {
-      "date": "2026-07-03",
-      "total_steps": 79770
+      "date": "2026-06-27",
+      "total_steps": 74691
     },
     {
-      "date": "2026-07-10",
-      "total_steps": 90711
+      "date": "2026-07-04",
+      "total_steps": 85985
     },
     {
-      "date": "2026-07-17",
-      "total_steps": 104435
+      "date": "2026-07-11",
+      "total_steps": 91220
     },
     {
-      "date": "2026-07-24",
-      "total_steps": 86828
+      "date": "2026-07-18",
+      "total_steps": 98628
     },
     {
-      "date": "2026-07-31",
-      "total_steps": 41955
+      "date": "2026-07-25",
+      "total_steps": 84343
+    },
+    {
+      "date": "2026-08-01",
+      "total_steps": 63136
     }
   ],
   "intensity_weekly": [
@@ -4654,8 +4704,8 @@
     },
     {
       "date": "2026-08-03",
-      "moderate_min": 52,
-      "vigorous_min": 9
+      "moderate_min": 129,
+      "vigorous_min": 17
     }
   ],
   "stress_daily": [
@@ -5696,8 +5746,18 @@
     },
     {
       "date": "2026-08-04",
-      "avg_stress": 18,
+      "avg_stress": 22,
       "body_battery_max": 100
+    },
+    {
+      "date": "2026-08-05",
+      "avg_stress": 31,
+      "body_battery_max": 82
+    },
+    {
+      "date": "2026-08-06",
+      "avg_stress": 19,
+      "body_battery_max": 83
     }
   ],
   "activities": [
@@ -8132,20 +8192,68 @@
       "cadence": 0,
       "training_effect": 1.2000000476837158,
       "location": "São José dos Campos"
+    },
+    {
+      "id": 23879971608,
+      "date": "2026-08-04",
+      "name": "Força",
+      "type": "strength_training",
+      "distance_m": 0,
+      "duration_s": 3017,
+      "avg_hr": 95.0,
+      "max_hr": 129.0,
+      "calories": 217.0,
+      "elevation_gain": 0,
+      "avg_speed_ms": 0,
+      "cadence": 0,
+      "training_effect": 0.4000000059604645,
+      "location": ""
+    },
+    {
+      "id": 23879973588,
+      "date": "2026-08-06",
+      "name": "São José dos Campos - 06/08 Qui - Corrida",
+      "type": "running",
+      "distance_m": 2334.4,
+      "duration_s": 1330,
+      "avg_hr": 125.0,
+      "max_hr": 151.0,
+      "calories": 187.0,
+      "elevation_gain": 0,
+      "avg_speed_ms": 1.755,
+      "cadence": 119.71875,
+      "training_effect": 2.200000047683716,
+      "location": "São José dos Campos"
+    },
+    {
+      "id": 23879972460,
+      "date": "2026-08-06",
+      "name": "Força",
+      "type": "strength_training",
+      "distance_m": 0,
+      "duration_s": 2739,
+      "avg_hr": 113.0,
+      "max_hr": 146.0,
+      "calories": 283.0,
+      "elevation_gain": 0,
+      "avg_speed_ms": 0,
+      "cadence": 0,
+      "training_effect": 1.5,
+      "location": ""
     }
   ],
   "pmc": {
-    "ctl": 19.4,
-    "atl": 14.7,
-    "tsb": 4.7,
-    "trimp_7d": 172.4,
-    "activities_7d": 7,
-    "readiness": 87,
+    "ctl": 20.6,
+    "atl": 18.8,
+    "tsb": 1.8,
+    "trimp_7d": 201.9,
+    "activities_7d": 9,
+    "readiness": 65,
     "training_status": "Produtivo",
     "acute_load_label": "Baixa",
-    "hrv_score": 76,
-    "sleep_score": 100,
-    "body_battery_score": 100,
+    "hrv_score": 67,
+    "sleep_score": 31,
+    "body_battery_score": 83,
     "tsb_score": 70,
     "history": [
       {
@@ -9386,21 +9494,27 @@
       },
       {
         "date": "2026-08-04",
-        "ctl": 21.4,
-        "atl": 26.1,
-        "tsb": -4.7
+        "ctl": 22.1,
+        "atl": 30.2,
+        "tsb": -8.1
       },
       {
         "date": "2026-08-05",
-        "ctl": 20.4,
-        "atl": 19.6,
-        "tsb": 0.8
+        "ctl": 21.1,
+        "atl": 22.6,
+        "tsb": -1.6
       },
       {
         "date": "2026-08-06",
-        "ctl": 19.4,
-        "atl": 14.7,
-        "tsb": 4.7
+        "ctl": 21.6,
+        "atl": 25.0,
+        "tsb": -3.4
+      },
+      {
+        "date": "2026-08-07",
+        "ctl": 20.6,
+        "atl": 18.8,
+        "tsb": 1.8
       }
     ]
   },
@@ -9854,6 +9968,12 @@
       "pace_sec_km": 570,
       "distance_km": 3.7,
       "ma5": 545.2
+    },
+    {
+      "date": "2026-08-06",
+      "pace_sec_km": 570,
+      "distance_km": 2.33,
+      "ma5": 544.4
     }
   ],
   "ef_monthly": [
@@ -9894,12 +10014,12 @@
     },
     {
       "month": "2026-08",
-      "ef": 0.8558,
-      "count": 2
+      "ef": 0.8514,
+      "count": 3
     }
   ],
   "sleep_pace_correlation": {
-    "r": 0.015,
+    "r": 0.006,
     "points": [
       {
         "sleep_h": 6.3,
@@ -10285,6 +10405,11 @@
         "sleep_h": 6.31,
         "pace_sec_km": 570,
         "dist_km": 3.7
+      },
+      {
+        "sleep_h": 5.6,
+        "pace_sec_km": 570,
+        "dist_km": 2.33
       }
     ]
   }
