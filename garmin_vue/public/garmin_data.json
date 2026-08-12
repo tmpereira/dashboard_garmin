@@ -2,7 +2,6 @@
   "profile": "Thiago pereira",
   "user_summary": {
     "userProfileId": 140450730,
-    "displayName": "0442d37a-ea26-4453-b0ff-33afa8306d08",
     "totalKilocalories": null,
     "activeKilocalories": null,
     "bmrKilocalories": null,
@@ -16,16 +15,19 @@
     "wellnessDistanceMeters": null,
     "wellnessActiveKilocalories": null,
     "netRemainingKilocalories": 0.0,
-    "userDailySummaryId": null,
+    "userDailySummaryId": 140450730,
     "calendarDate": "2026-08-12",
-    "rule": null,
-    "uuid": null,
+    "rule": {
+      "typeId": 3,
+      "typeKey": "subscribers"
+    },
+    "uuid": "30a86af444124f778bf94d16aee4b07e",
     "dailyStepGoal": null,
     "wellnessStartTimeGmt": null,
     "wellnessStartTimeLocal": null,
     "wellnessEndTimeGmt": null,
     "wellnessEndTimeLocal": null,
-    "durationInMilliseconds": null,
+    "durationInMilliseconds": 0,
     "wellnessDescription": null,
     "highlyActiveSeconds": null,
     "activeSeconds": null,
@@ -97,11 +99,11 @@
   "race_predictions": {
     "time5K": 1934,
     "time10K": 4119,
-    "timeHalfMarathon": 9478,
-    "timeMarathon": 21348
+    "timeHalfMarathon": 9479,
+    "timeMarathon": 21354
   },
   "_meta": {
-    "extracted_at": "2026-08-12T13:14:39.423930",
+    "extracted_at": "2026-08-12T21:35:30.754981",
     "period_start": "2026-01-01",
     "period_end": "2026-08-12",
     "days_total": 224
@@ -1802,12 +1804,20 @@
       "light_h": 5.02,
       "rem_h": 1.03,
       "awake_h": 0.75
+    },
+    {
+      "date": "2026-08-12",
+      "total_h": 7.38,
+      "deep_h": 1.3,
+      "light_h": 5.08,
+      "rem_h": 1.0,
+      "awake_h": 1.05
     }
   ],
   "sleep_avg": {
     "total_h": 6.97,
     "deep_h": 1.29,
-    "light_h": 4.73,
+    "light_h": 4.74,
     "rem_h": 0.98,
     "awake_h": 0.75
   },
@@ -3671,6 +3681,11 @@
       "date": "2026-08-11",
       "last_night_avg": 54,
       "weekly_avg": 47
+    },
+    {
+      "date": "2026-08-12",
+      "last_night_avg": 46,
+      "weekly_avg": 46
     }
   ],
   "steps_daily": [
@@ -4532,7 +4547,11 @@
     },
     {
       "date": "2026-08-11",
-      "steps": 4360
+      "steps": 5841
+    },
+    {
+      "date": "2026-08-12",
+      "steps": 0
     }
   ],
   "steps_weekly": [
@@ -4658,7 +4677,7 @@
     },
     {
       "date": "2026-08-06",
-      "total_steps": 48995
+      "total_steps": 50476
     }
   ],
   "intensity_weekly": [
@@ -5901,7 +5920,7 @@
     },
     {
       "date": "2026-08-11",
-      "avg_stress": 22,
+      "avg_stress": 26,
       "body_battery_max": 97
     }
   ],
@@ -8409,10 +8428,10 @@
     "tsb": 9.8,
     "trimp_7d": 62.5,
     "activities_7d": 3,
-    "readiness": 88,
+    "readiness": 84,
     "training_status": "Produtivo",
     "acute_load_label": "Muito Baixa",
-    "hrv_score": 74,
+    "hrv_score": 66,
     "sleep_score": 100,
     "body_battery_score": 97,
     "tsb_score": 90,
