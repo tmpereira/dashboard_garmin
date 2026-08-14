@@ -17,7 +17,7 @@
     "wellnessActiveKilocalories": null,
     "netRemainingKilocalories": 0.0,
     "userDailySummaryId": null,
-    "calendarDate": "2026-08-13",
+    "calendarDate": "2026-08-14",
     "rule": null,
     "uuid": null,
     "dailyStepGoal": null,
@@ -101,10 +101,10 @@
     "timeMarathon": 21354
   },
   "_meta": {
-    "extracted_at": "2026-08-13T21:35:35.467301",
+    "extracted_at": "2026-08-14T13:11:23.960090",
     "period_start": "2026-01-01",
-    "period_end": "2026-08-13",
-    "days_total": 225
+    "period_end": "2026-08-14",
+    "days_total": 226
   },
   "sleep": [
     {
@@ -4554,128 +4554,132 @@
   ],
   "steps_weekly": [
     {
-      "date": "2026-01-09",
-      "total_steps": 58944
+      "date": "2026-01-03",
+      "total_steps": 1079
     },
     {
-      "date": "2026-01-16",
-      "total_steps": 66013
+      "date": "2026-01-10",
+      "total_steps": 68140
     },
     {
-      "date": "2026-01-23",
-      "total_steps": 46243
+      "date": "2026-01-17",
+      "total_steps": 64184
     },
     {
-      "date": "2026-01-30",
-      "total_steps": 59163
+      "date": "2026-01-24",
+      "total_steps": 45834
     },
     {
-      "date": "2026-02-06",
-      "total_steps": 58833
+      "date": "2026-01-31",
+      "total_steps": 59301
     },
     {
-      "date": "2026-02-13",
-      "total_steps": 72696
+      "date": "2026-02-07",
+      "total_steps": 64887
     },
     {
-      "date": "2026-02-20",
-      "total_steps": 61933
+      "date": "2026-02-14",
+      "total_steps": 69387
     },
     {
-      "date": "2026-02-27",
-      "total_steps": 66022
+      "date": "2026-02-21",
+      "total_steps": 59773
     },
     {
-      "date": "2026-03-06",
-      "total_steps": 73555
+      "date": "2026-02-28",
+      "total_steps": 70557
     },
     {
-      "date": "2026-03-13",
-      "total_steps": 69753
+      "date": "2026-03-07",
+      "total_steps": 73929
     },
     {
-      "date": "2026-03-20",
-      "total_steps": 76579
+      "date": "2026-03-14",
+      "total_steps": 72697
     },
     {
-      "date": "2026-03-27",
-      "total_steps": 72776
+      "date": "2026-03-21",
+      "total_steps": 65670
     },
     {
-      "date": "2026-04-03",
-      "total_steps": 76343
+      "date": "2026-03-28",
+      "total_steps": 73428
     },
     {
-      "date": "2026-04-10",
-      "total_steps": 71581
+      "date": "2026-04-04",
+      "total_steps": 77452
     },
     {
-      "date": "2026-04-17",
-      "total_steps": 72303
+      "date": "2026-04-11",
+      "total_steps": 73296
     },
     {
-      "date": "2026-04-24",
-      "total_steps": 82894
+      "date": "2026-04-18",
+      "total_steps": 69947
     },
     {
-      "date": "2026-05-01",
-      "total_steps": 81429
+      "date": "2026-04-25",
+      "total_steps": 82276
     },
     {
-      "date": "2026-05-08",
-      "total_steps": 69870
+      "date": "2026-05-02",
+      "total_steps": 82503
     },
     {
-      "date": "2026-05-15",
-      "total_steps": 76382
+      "date": "2026-05-09",
+      "total_steps": 73808
     },
     {
-      "date": "2026-05-22",
-      "total_steps": 77112
+      "date": "2026-05-16",
+      "total_steps": 74424
     },
     {
-      "date": "2026-05-29",
-      "total_steps": 69173
+      "date": "2026-05-23",
+      "total_steps": 75221
     },
     {
-      "date": "2026-06-05",
-      "total_steps": 84818
+      "date": "2026-05-30",
+      "total_steps": 78250
     },
     {
-      "date": "2026-06-12",
-      "total_steps": 79375
+      "date": "2026-06-06",
+      "total_steps": 77334
     },
     {
-      "date": "2026-06-19",
-      "total_steps": 68359
+      "date": "2026-06-13",
+      "total_steps": 79889
     },
     {
-      "date": "2026-06-26",
-      "total_steps": 71395
+      "date": "2026-06-20",
+      "total_steps": 65295
     },
     {
-      "date": "2026-07-03",
-      "total_steps": 79770
+      "date": "2026-06-27",
+      "total_steps": 74691
     },
     {
-      "date": "2026-07-10",
-      "total_steps": 90711
+      "date": "2026-07-04",
+      "total_steps": 85985
     },
     {
-      "date": "2026-07-17",
-      "total_steps": 104435
+      "date": "2026-07-11",
+      "total_steps": 91220
     },
     {
-      "date": "2026-07-24",
-      "total_steps": 86828
+      "date": "2026-07-18",
+      "total_steps": 98628
     },
     {
-      "date": "2026-07-31",
-      "total_steps": 71484
+      "date": "2026-07-25",
+      "total_steps": 84343
     },
     {
-      "date": "2026-08-07",
-      "total_steps": 35953
+      "date": "2026-08-01",
+      "total_steps": 66942
+    },
+    {
+      "date": "2026-08-08",
+      "total_steps": 32355
     }
   ],
   "intensity_weekly": [
@@ -8421,11 +8425,11 @@
     }
   ],
   "pmc": {
-    "ctl": 16.6,
-    "atl": 5.7,
-    "tsb": 10.9,
-    "trimp_7d": 62.5,
-    "activities_7d": 3,
+    "ctl": 15.9,
+    "atl": 4.3,
+    "tsb": 11.6,
+    "trimp_7d": 30.3,
+    "activities_7d": 1,
     "readiness": 84,
     "training_status": "Descansado",
     "acute_load_label": "Muito Baixa",
@@ -9729,6 +9733,12 @@
         "ctl": 16.6,
         "atl": 5.7,
         "tsb": 10.9
+      },
+      {
+        "date": "2026-08-14",
+        "ctl": 15.9,
+        "atl": 4.3,
+        "tsb": 11.6
       }
     ]
   },
