@@ -101,7 +101,7 @@
     "timeMarathon": 21354
   },
   "_meta": {
-    "extracted_at": "2026-08-16T12:43:57.473210",
+    "extracted_at": "2026-08-16T21:12:51.756831",
     "period_start": "2026-01-01",
     "period_end": "2026-08-16",
     "days_total": 228
@@ -1084,14 +1084,6 @@
       "awake_h": 0.18
     },
     {
-      "date": "2026-05-13",
-      "total_h": 4.82,
-      "deep_h": 1.07,
-      "light_h": 2.85,
-      "rem_h": 0.9,
-      "awake_h": 1.73
-    },
-    {
       "date": "2026-05-14",
       "total_h": 7.54,
       "deep_h": 0.48,
@@ -1813,10 +1805,10 @@
     }
   ],
   "sleep_avg": {
-    "total_h": 6.97,
+    "total_h": 6.98,
     "deep_h": 1.29,
-    "light_h": 4.74,
-    "rem_h": 0.98,
+    "light_h": 4.75,
+    "rem_h": 0.99,
     "awake_h": 0.75
   },
   "heart_rates": [
