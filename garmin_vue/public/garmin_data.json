@@ -11,7 +11,7 @@
     "remainingKilocalories": null,
     "totalSteps": 119,
     "netCalorieGoal": null,
-    "totalDistanceMeters": 3574,
+    "totalDistanceMeters": 7111,
     "wellnessDistanceMeters": 97,
     "wellnessActiveKilocalories": 0.0,
     "netRemainingKilocalories": 0.0,
@@ -88,7 +88,7 @@
     "latestSpo2ReadingTimeGmt": "2026-08-17T08:20:00.0",
     "latestSpo2ReadingTimeLocal": "2026-08-17T05:20:00.0",
     "averageMonitoringEnvironmentAltitude": 646.0,
-    "restingCaloriesFromActivity": 22.0,
+    "restingCaloriesFromActivity": 60.0,
     "bodyBatteryDynamicFeedbackEvent": {
       "eventTimestampGmt": "2026-08-17T08:58:23",
       "bodyBatteryLevel": "MODERATE",
@@ -137,7 +137,7 @@
     "timeMarathon": 21563
   },
   "_meta": {
-    "extracted_at": "2026-08-17T12:48:05.319010",
+    "extracted_at": "2026-08-17T21:17:49.653664",
     "period_start": "2026-01-01",
     "period_end": "2026-08-17",
     "days_total": 229
@@ -8648,6 +8648,22 @@
       "location": "São José dos Campos"
     },
     {
+      "id": 24010917039,
+      "date": "2026-08-17",
+      "name": "São José dos Campos Ciclismo",
+      "type": "cycling",
+      "distance_m": 3537.0,
+      "duration_s": 1449,
+      "avg_hr": 131.0,
+      "max_hr": 157.0,
+      "calories": 217.0,
+      "elevation_gain": 57,
+      "avg_speed_ms": 2.441,
+      "cadence": 0,
+      "training_effect": 2.5999999046325684,
+      "location": "São José dos Campos"
+    },
+    {
       "id": 24008089278,
       "date": "2026-08-17",
       "name": "São José dos Campos Ciclismo",
@@ -8665,11 +8681,11 @@
     }
   ],
   "pmc": {
-    "ctl": 16.1,
-    "atl": 11.3,
-    "tsb": 4.8,
-    "trimp_7d": 53.3,
-    "activities_7d": 3,
+    "ctl": 16.8,
+    "atl": 14.9,
+    "tsb": 1.9,
+    "trimp_7d": 67.5,
+    "activities_7d": 4,
     "readiness": 74,
     "training_status": "Produtivo",
     "acute_load_label": "Baixa",
@@ -9994,9 +10010,9 @@
       },
       {
         "date": "2026-08-17",
-        "ctl": 16.1,
-        "atl": 11.3,
-        "tsb": 4.8
+        "ctl": 16.8,
+        "atl": 14.9,
+        "tsb": 1.9
       }
     ]
   },
