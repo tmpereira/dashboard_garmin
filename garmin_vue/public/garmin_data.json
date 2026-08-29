@@ -131,7 +131,7 @@
     "timeMarathon": 21683
   },
   "_meta": {
-    "extracted_at": "2026-08-29T16:24:11.939875",
+    "extracted_at": "2026-08-29T22:56:22.443317",
     "period_start": "2026-01-01",
     "period_end": "2026-08-29",
     "days_total": 241
@@ -2055,6 +2055,12 @@
     {
       "date": "2026-04-12",
       "max": 134,
+      "resting": 53,
+      "min": 51
+    },
+    {
+      "date": "2026-04-13",
+      "max": 116,
       "resting": 53,
       "min": 51
     },
